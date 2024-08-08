@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed168a7b64bb284cb62c955d4a90d4e, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  spawnCubeData:
+    rangeAmount: {x: 10, y: 20}
+  prefabsData:
+    cube: {fileID: 452341710636393990, guid: 8a8f69a990a31c142b1f9a99e4e6945d, type: 3}
+    bullet: {fileID: 5830441725362457232, guid: 0d86da6a52faea04a9b246f80ae05769,
+      type: 3}
+  cubeData:
+    randomMoveData:
+      delayToChangeDirection: 0.5
+      force: 35
+    hunterData:
+      force: 50
+  heroData:
+    shootData:
+      delayToShoot: 0.75
+      force: 25
